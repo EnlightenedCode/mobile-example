@@ -69,7 +69,7 @@ gulp.task('clean', function (cb) {
 
 gulp.task('connect', connect.server({
         port: 3000,
-        hostname: 'localhost',
+        hostname: '127.0.0.1',
         root: ['src/client/'],
         livereload: {
             port: '35729'
