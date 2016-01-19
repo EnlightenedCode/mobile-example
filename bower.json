@@ -1,13 +1,8 @@
 {
-  "name": "mobile-exaample",
-  "homepage": "",
+  "name": "rec-changes-client",
+  "version": "0.0.1",
   "description": "Mobile UI",
   "main": [
-    "dist/css/mobile-angular-ui-hover.css",
-    "dist/css/mobile-angular-ui-base.css",
-    "dist/css/mobile-angular-ui-desktop.css",
-    "dist/js/mobile-angular-ui.js",
-    "dist/js/mobile-angular-ui.gestures.js",
     "dist/fonts/fontawesome-webfont.eot",
     "dist/fonts/fontawesome-webfont.svg",
     "dist/fonts/fontawesome-webfont.ttf",
@@ -29,10 +24,26 @@
     "test",
     "ROADMAP.tasks"
   ],
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "angular": "~1.4.8",
+    "angular-animate": "~1.4.8",
+    "angular-sanitize": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "extras.angular.plus": "~0.9.3",
+    "toastr": "~2.1.2",
+    "font-awesome": "^4.3.0",
+    "angular-moment": "~0.10.3",
+    "moment": "~2.10.6",
+    "mobile-angular-ui": "~1.2.0-rc.3",
+    "angular-touch": "~1.4.8",
+    "angular-route": "~1.4.8"
+  },
   "devDependencies": {
     "font-awesome": "4",
     "bootstrap": "3",
     "fastclick": "1",
-    "overthrow": "0.7"
+    "overthrow": "0.7",
+    "bardjs": "~0.1.8"
   }
 }
